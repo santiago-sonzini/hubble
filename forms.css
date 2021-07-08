@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,600&display=swap');
+
+
+
+
+html {
+    box-sizing: border-box;
+
+}
+
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(/assets/thumb-1920-901950.jpg);
+}    
+
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.form-div form {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.btn-white {
+    background-color: transparent;
+    color: #fff;
+    width: 190px;
+    height: 46px;
+    font-size: 1rem;
+    border: 0.2px solid #fff;
+    
+
+}
+.btn-white:hover {
+    background-color: white;
+    color: rgba(0, 0, 0,4);
+    transition: 0.3s all ease-in;
+}
+
+
+.form-div input {
+    
+        width: 20rem;
+        height: 2.2rem;
+        border: 1px solid #fff;
+        text-align: center;
+        margin: 10px;   
+        background: transparent;
+        color: #fff;
+        outline: none;
+}
+
+.form-div input::placeholder {
+    color: white;
+}
+
+
+
+
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    margin-top: 50px;
+}
+
+.links a {
+    color: white;
+    text-decoration: underline;
+    
+}
+
+.links h3 {
+    color: white;
+}
